@@ -84,10 +84,6 @@ Real answer (18 Nov 2026): `wx_weather(city="مشهد")` returned 13 °C, cloudy
 - The first lookup of a small station by name, or of a road by name, reads several pages before it is cached.
 - Warning pages 2 and later, and the pollution and marine warning texts, were checked against the page HTML rather than in Chrome (see the test report in the API map).
 
-## How it works
-
-IRIMO has no public API. The pages were mapped by watching irimo.ir in Chrome, and every tool was then checked in Chrome against the real rendered pages on 18 Nov 2026, with a second review pass the same day that found and fixed six parser bugs. The server reads those same public pages through a Chrome-impersonating HTTP client, with a 5 minute cache and at most two requests at a time.
-
 ## فارسی
 
 <div dir="rtl">
