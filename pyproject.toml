@@ -1,6 +1,6 @@
 [project]
 name = "iran-weather-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial read-only MCP server for the Iran Meteorological Organization (IRIMO, irimo.ir): city forecasts, observations, warnings, road and airport weather."
 readme = "README.md"
 license = "PolyForm-Noncommercial-1.0.0"

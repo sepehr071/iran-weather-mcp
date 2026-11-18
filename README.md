@@ -82,7 +82,7 @@ Real answer (18 Nov 2026): `wx_weather(city="مشهد")` returned 13 °C, cloudy
 - A station whose feed is stale shows no current values and no 3-day forecast. The tools return only what the page shows, and some stations only show the 24 h min and max in forecast period 3.
 - No hourly forecast, no historical data, no METAR. Bulletins are PDF links only; the provincial and mountain bulletins are not exposed.
 - The first lookup of a small station by name, or of a road by name, reads several pages before it is cached.
-- Warning pages 2 and later, and the pollution and marine warning texts, were checked against the page HTML rather than in Chrome (see the test report in the API map).
+- Warning pages 2 and later, and the pollution and marine warning texts, have had less testing than the other tools.
 
 ## فارسی
 
